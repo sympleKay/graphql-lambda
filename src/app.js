@@ -13,6 +13,8 @@ app.use(
   );
 
 // const PORT = process.env.PORT;
-app.listen(PORT, () => {
-  console.log(`GATEWAY LISTENING ON PORT ${PORT}`);
-});
+// app.listen(PORT, () => {
+//   console.log(`GATEWAY LISTENING ON PORT ${PORT}`);
+// });
+
+module.exports = app;
